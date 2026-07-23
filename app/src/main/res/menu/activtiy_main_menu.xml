@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group" android:checkableBehavior="single">
+        <item android:id="@+id/profile" android:title="پروفایل" android:icon="@drawable/account_circle_24px"/>
+        <item  android:id="@+id/aboutMe" android:title="درباره من" android:icon="@drawable/article_24px"/>
+        <item  android:id="@+id/workExperiences" android:title="تجربه کاری من" android:icon="@drawable/work_24px"/>
+        <item  android:id="@+id/education" android:title="تحصیلات  من" android:icon="@drawable/school_24px"/>
+        <item  android:id="@+id/myServices" android:title="سرویس های من" android:icon="@drawable/design_services_24px"/>
+        <item  android:id="@+id/skills" android:title="مهارت های من" android:icon="@drawable/engineering_24px"/>
+        <item  android:id="@+id/works" android:title="نمونه کار های من" android:icon="@drawable/gallery_thumbnail_24px"/>
+        <item  android:id="@+id/blog" android:title="وبلاگ من" android:icon="@drawable/news_24px"/>
+        <item  android:id="@+id/messages" android:title="پیام های من" android:icon="@drawable/chat_bubble_24px"/>
+    </group>
+
+</menu>

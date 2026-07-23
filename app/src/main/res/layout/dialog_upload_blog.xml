@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="12sp"
+    android:orientation="vertical">
+<com.orbitalsonic.waterwave.WaterWaveView
+    android:layout_width="match_parent"
+    android:layout_height="200sp"
+    app:animatorEnable="true"
+    app:shapeType="circle"
+    app:borderColor="@color/orange"
+    android:id="@+id/progressBar"
+    app:frontColor="@color/orange"
+    app:max="100"
+    app:progress="0"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/vazirmatn_bold"
+        android:text="درحال آپلود تصویر  وبلاگ  شما"/>
+
+
+
+</LinearLayout>

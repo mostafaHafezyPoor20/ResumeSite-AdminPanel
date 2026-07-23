@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<com.airbnb.lottie.LottieAnimationView
+    android:layout_width="match_parent"
+    android:layout_height="250sp"
+    app:lottie_rawRes="@raw/disconnection_internet"
+    app:lottie_autoPlay="true"
+    android:layout_centerInParent="true"
+   android:id="@+id/animation" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="خطای اتصال به شبکه ! اتصال اینترنت خود را چک کنید"
+        android:layout_below="@id/animation"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:id="@+id/textError"
+        android:layout_marginTop="12sp"
+        android:fontFamily="@font/vazirmatn_extra_bold"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textError"
+        android:layout_marginRight="24sp"
+        android:layout_marginLeft="24sp"
+        android:layout_marginTop="12sp"
+        android:text="تلاش مجدد"
+        android:fontFamily="@font/vazirmatn_semi_bold"
+        android:id="@+id/btnTryAgain"
+        android:visibility="gone"/>
+</RelativeLayout>

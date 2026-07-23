@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:layout_width="70sp"
+        android:layout_height="5sp"
+        android:background="@color/gray"
+        android:layout_gravity="center"
+        android:layout_marginTop="4sp"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/title"
+    android:textColor="@color/black"
+    android:textSize="20sp"
+    android:layout_marginTop="12sp"
+    android:fontFamily="@font/vazirmatn_bold"
+    android:gravity="center" />
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4sp"
+        app:backgroundTint="@color/orange"
+        android:text="ویرایش"
+        app:cornerRadius="12sp"
+        android:fontFamily="@font/vazirmatn_bold"
+        android:layout_marginRight="12sp"
+        android:layout_marginLeft="12sp"
+        android:id="@+id/btnEdit"
+        android:textColor="@color/white" />
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2sp"
+        app:backgroundTint="@color/red"
+        android:layout_marginRight="12sp"
+        android:layout_marginLeft="12sp"
+        app:cornerRadius="12sp"
+        android:text="حذف"
+        android:id="@+id/btnDelete"
+        android:fontFamily="@font/vazirmatn_bold"
+        android:textColor="@color/white" />
+</LinearLayout>

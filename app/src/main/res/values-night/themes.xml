@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.احمدعسکرینیا" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="android:statusBarColor">@color/orange</item>
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorSecondary">@color/orange</item>
+    </style>
+    <style name="AppBottomSheetDialog" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CornerRoundedBottomSheet</item>
+        <item name="colorPrimary">@color/orange</item>
+    </style>
+    <style name="CornerRoundedBottomSheet" parent="Widget.MaterialComponents.BottomSheet.Modal">
+         <item name="shapeAppearanceOverlay">@style/RoundedTopCorner</item>
+    </style>
+    <style name="RoundedTopCorner">
+       <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">12sp</item>
+        <item name="cornerSizeTopRight">12sp</item>
+    </style>
+</resources>

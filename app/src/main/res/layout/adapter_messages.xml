@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="12sp">
+<com.google.android.material.card.MaterialCardView
+    android:layout_width="match_parent"
+    android:layout_height="100sp"
+    android:id="@+id/rootCarView"
+    app:cardCornerRadius="12sp"
+    app:strokeWidth="1sp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+       <com.google.android.material.card.MaterialCardView
+           android:layout_width="80sp"
+           android:layout_height="80sp"
+           android:layout_centerVertical="true"
+           app:cardCornerRadius="200sp"
+           android:layout_marginRight="4sp"
+           app:cardBackgroundColor="@color/orange"
+           android:layout_alignParentRight="true"
+           android:id="@+id/cardImageName">
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                  android:layout_centerInParent="true"
+                   android:text="S"
+                   android:textColor="@color/white"
+                   android:id="@+id/textViewCard"
+                   android:fontFamily="@font/vazirmatn_bold"
+                   android:textSize="30sp"/>
+           </RelativeLayout>
+       </com.google.android.material.card.MaterialCardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/cardImageName"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:id="@+id/name"
+            android:fontFamily="@font/vazirmatn_extra_bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/cardImageName"
+            android:layout_below="@id/name"
+            android:gravity="center"
+            android:fontFamily="@font/vazirmatn_medium"
+            android:id="@+id/message"/>
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>
+</RelativeLayout>
