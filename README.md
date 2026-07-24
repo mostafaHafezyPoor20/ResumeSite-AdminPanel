@@ -47,5 +47,7 @@ The application allows administrators to update personal information , skills , 
 ## Technologies Uesd 
  - MVVM architecture
  - Retrofit Library for connection server
- - uploadservice for uploade files 
-   
+ - Uploadservice Library for uploade files 
+
+ ## Related Projects 
+ https://github.com/mostafaHafezyPoor20/ResumeSite
