@@ -31,3 +31,21 @@ The application allows administrators to update personal information , skills , 
 ### sample works 
 <img width="1080" height="2400" alt="sample works" src="https://github.com/user-attachments/assets/fab19feb-9b91-4f2b-ac9b-243f3f1e730d" />
 
+## features 
+ -  material design
+ -  use firebase notification for nitofy new messages 
+ - manage profile
+ - manage about me
+ - manage work experiences
+ - manage education
+ - manage services
+ - manage skills
+ - manage work samples
+ - manage weblog
+ - manage messages
+
+## Technologies Uesd 
+ - MVVM architecture
+ - Retrofit Library for connection server
+ - uploadservice for uploade files 
+   
