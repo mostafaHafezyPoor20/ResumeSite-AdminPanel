@@ -51,3 +51,8 @@ The application allows administrators to update personal information , skills , 
 
  ## Related Projects 
 source resume site =>  https://github.com/mostafaHafezyPoor20/ResumeSite
+
+## Installation
+1. go to  file  utils / Constants.java
+2. edit variable SERVER_URL address server api
+3. edit variable key for private key connection to server
